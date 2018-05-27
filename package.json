@@ -15,16 +15,16 @@
   "author": "Lauren Spinazze, Sam Orpilla, Brendan Kim, Elle Bang, Laurentius Tirtarahardja",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "axios": "^0.16.2",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
+    "concurrently": "^3.5.0",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.2.0",
     "mongoose": "^4.11.7",
+    "nodemon": "^1.11.0",
     "npm": "^5.7.1",
     "passport": "^0.4.0",
     "passport-heroku": "^1.0.0",
