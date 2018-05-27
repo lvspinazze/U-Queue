@@ -1,5 +1,4 @@
 import React from 'react';
-import Clock from 'react-live-clock';
 import styled from 'styled-components';
 
 const Nav = styled.div`
@@ -77,11 +76,7 @@ const NavHistory = () => (
     <Link href="/newaccount">ACCOUNT</Link>
     <Link href="/login">GOODBYE</Link>
     <Time>
-      <Clock
-        format={'MMMM Do, YYYY   hh:mm:ss A'}
-        ticking={true}
-        timezone={'US/Pacific'}
-      />
+      6:52 PM
     </Time>
   </Nav>
 );
