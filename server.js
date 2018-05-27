@@ -28,7 +28,7 @@ const authCheckMiddleware = require('./middleware/auth-check');
 app.use('/api', authCheckMiddleware);
 
 // Set up promises with mongoose
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://root:root@/ds235850.mlab.com:35850/heroku_m6gnkwbz';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://root:root@ds235850.mlab.com:35850/heroku_m6gnkwbz';
 mongoose.Promise = Promise;
 // Connect to the Mongo DB
 mongoose.connect(MONGODB_URI, {
