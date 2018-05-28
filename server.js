@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const passport = require('passport');
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5000;
 
 // Configure body parser for AJAX requests
 app.use(bodyParser.urlencoded({ extended: true }));

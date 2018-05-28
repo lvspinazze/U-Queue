@@ -1,5 +1,5 @@
 {
-  "name": "u-queue",
+  "name": "uqueue",
   "version": "0.1.0",
   "description": "",
   "main": "server.js",
@@ -24,7 +24,6 @@
     "express": "^4.16.3",
     "jsonwebtoken": "^8.2.0",
     "mongoose": "^4.11.7",
-    "nodemon": "^1.11.0",
     "npm": "^5.7.1",
     "passport": "^0.4.0",
     "passport-heroku": "^1.0.0",
