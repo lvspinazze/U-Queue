@@ -14,8 +14,7 @@
   },
   "author": "Lauren Spinazze, Sam Orpilla, Brendan Kim, Elle Bang, Laurentius Tirtarahardja",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "axios": "^0.16.2",
     "bcryptjs": "^2.4.3",
@@ -25,6 +24,7 @@
     "jsonwebtoken": "^8.2.0",
     "mongoose": "^4.11.7",
     "npm": "^5.7.1",
+    "npm-registry-fetch": "^3.1.1",
     "passport": "^0.4.0",
     "passport-heroku": "^1.0.0",
     "passport-local": "^1.0.0",
@@ -35,9 +35,5 @@
     "styled-components": "^3.2.3",
     "twilio": "^3.13.0",
     "validator": "^9.4.1"
-  },
-  "engines": {
-    "node": "10.2.1",
-    "yarn": "1.7.0"
   }
 }
