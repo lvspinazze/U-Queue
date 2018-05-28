@@ -6,7 +6,7 @@ const passport = require('passport');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Configure body parser for AJAX requests
+// Configure body parser for AJAX request
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // Serve up static assets
