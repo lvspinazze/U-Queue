@@ -1,6 +1,6 @@
 const db = require('../models');
 
-// Defining methods for the queueController
+// Defining methods for the queueControlle
 module.exports = {
   findAll: function(req, res) {
     db.Guest.find(req.query)
